@@ -4,14 +4,14 @@ cask "restretto" do
 
   url "https://restretto.app/archive/Restretto_#{version}.zip"
   name "Restretto"
-  desc "Minimal natvie REST API client"
+  desc "Minimal native REST API client"
   homepage "https://restretto.app"
 
   # Important since you use Sparkle: prevents Homebrew from
   # downgrading the app if the user updates via the in-app updater.
   auto_updates true 
   
-  depends_on macos: ">= :monterey" # Adjust based on your SwiftUI minimum target
+  depends_on macos: ">= :sonoma" # Adjust based on your SwiftUI minimum target
 
   app "Restretto.app"
 
