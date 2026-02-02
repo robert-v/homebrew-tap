@@ -7,6 +7,11 @@ cask "restretto" do
   desc "Minimal native REST API client"
   homepage "https://restretto.app"
 
+  livecheck do
+    url "https://restretto.app/archive/appcast.xml"
+    strategy :sparkle
+  end
+
   # Important since you use Sparkle: prevents Homebrew from
   # downgrading the app if the user updates via the in-app updater.
   auto_updates true 
