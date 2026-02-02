@@ -18,8 +18,8 @@ cask "restretto" do
   # specific cleanup instructions for uninstalls
   zap trash: [
     "~/Library/Application Support/Restretto",
-    "~/Library/Caches/com.yourname.Restretto",
-    "~/Library/Preferences/com.yourname.Restretto.plist",
-    "~/Library/Saved Application State/com.yourname.Restretto.savedState",
+    "~/Library/Caches/com.itone.Restretto",
+    "~/Library/Preferences/com.itone.Restretto.plist",
+    "~/Library/Saved Application State/com.itone.Restretto.savedState",
   ]
 end
