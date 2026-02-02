@@ -2,7 +2,7 @@ cask "restretto" do
   version "1.0.7"
   sha256 "5541737be89b8ce951ce4de4603893a3b6ca01c7"
 
-  url "https://restretto.app/archive/Restretto_{version}.zip"
+  url "https://restretto.app/archive/Restretto_#{version}.zip"
   name "Restretto"
   desc "Minimal natvie REST API client"
   homepage "https://restretto.app"
