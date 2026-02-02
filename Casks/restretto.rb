@@ -1,6 +1,6 @@
 cask "restretto" do
   version "1.0.7"
-  sha256 "5541737be89b8ce951ce4de4603893a3b6ca01c7"
+  sha256 "ef136e981ab335c4a803fe9522c0555de97d48a21726466569651a41ce66ade2"
 
   url "https://restretto.app/archive/Restretto_#{version}.zip"
   name "Restretto"
@@ -11,7 +11,7 @@ cask "restretto" do
   # downgrading the app if the user updates via the in-app updater.
   auto_updates true 
   
-  depends_on macos: ">= :sonoma" # Adjust based on your SwiftUI minimum target
+  depends_on macos: ">= :sonoma"
 
   app "Restretto.app"
 
