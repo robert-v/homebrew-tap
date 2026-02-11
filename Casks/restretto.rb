@@ -1,6 +1,6 @@
 cask "restretto" do
   version "1.0.10"
-  sha256 "ef136e981ab335c4a803fe9522c0555de97d48a21726466569651a41ce66ade2"
+  sha256 "1373384f285c92d563fd5ee2a76ad4577e5bef34b21d8a82309c96adb19490ae"
 
   url "https://restretto.app/archive/Restretto_#{version}.zip"
   name "Restretto"
